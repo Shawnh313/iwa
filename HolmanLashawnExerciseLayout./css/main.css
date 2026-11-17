@@ -1,0 +1,92 @@
+/*Alternative Css box model*/
+* {
+  box-sizing: border-box;
+}
+
+/*Main Styles*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgb(189, 188, 188);
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0rem;
+}
+
+#wrapper {
+  width: 95%;
+  border: 0.188rem solid darkblue;
+  margin: auto;
+  background-color: lightblue;
+  padding: 1.25rem;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(234, 36, 36);
+  font-size: 4rem;
+  background-color: rgb(11, 11, 146);
+  width: 30rem;
+  padding: 1.5rem;
+  border: 0.313rem solid white;
+  border-radius: 1rem;
+  margin: auto;
+  box-shadow: 0.625rem 0.625rem 0.625rem red;
+  text-shadow: 0.188rem 0.188rem 0rem white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(234, 36, 36);
+  background-color: rgb(11, 11, 146);
+  padding: 1rem;
+  text-shadow: 0.125rem 0.125rem 0.125rem white;
+  border: 0.313rem solid white;
+  border-radius: 1rem;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(45, 11, 182);
+  text-shadow: 0.125rem 0.125rem 0.125rem white;
+  text-decoration: underline;
+}
+
+/*Link Styles*/
+a {
+  text-decoration: none;
+  color: rgb(11, 11, 146);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(249, 247, 247);
+}
+
+/*link Styles*/
+ul {
+  list-style: none;
+  padding: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+p {
+  color: darkblue;
+}
+
+img {
+  width: 15rem;
+  display: block;
+  margin: auto;
+}
